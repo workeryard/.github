@@ -2,14 +2,22 @@
 
 Open-source libraries for Cloudflare Workers.
 
-Each one does a thing a Worker's built-in APIs leave out, small enough to read
-and checked against the real thing rather than against itself.
+## Who it is for
 
-| library | what it does | status |
-| --- | --- | --- |
-| [underfetch](https://github.com/workeryard/underfetch) | HTTP over raw sockets: SOCKS and HTTP(S) proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like Chrome, Firefox or Safari | preparing its first release |
+Developers building on Cloudflare Workers who reach the edge of what the
+platform gives them — a `fetch()` that cannot be pointed at a proxy, a socket
+with nothing above it — and need the missing piece done properly rather than
+done again in every project.
 
-## How they are built
+## Why
+
+A Worker's built-in APIs are deliberately small. What they leave out tends to
+be written by hand, once per project, untested against the real thing. Each
+library here does one such thing well enough to depend on: small enough to
+read, tested without a network, and checked against real servers and real
+browsers before a release.
+
+## How
 
 - **Measured, not assumed.** A claim about a browser, a server or the platform
   comes with how it was checked, and the check runs again before a release.
@@ -20,7 +28,17 @@ and checked against the real thing rather than against itself.
   tested anywhere.
 - **No dependency without a measurement** of what it costs a Worker's bundle.
 
-MIT licensed unless a repository says otherwise.
+## Libraries
+
+| library | what it does | status |
+| --- | --- | --- |
+| [underfetch](https://github.com/workeryard/underfetch) | HTTP over raw sockets: SOCKS and HTTP(S) proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like Chrome, Firefox or Safari | preparing its first release |
+
+## Support
+
+The libraries are MIT licensed and free to use. If one saves you work,
+[sponsoring](https://github.com/sponsors/0x4d4d4f) keeps it maintained and
+measured against the browsers as they change.
 
 ---
 

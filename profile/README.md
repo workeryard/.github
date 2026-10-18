@@ -32,7 +32,7 @@ browsers before a release.
 
 | library | what it does | status |
 | --- | --- | --- |
-| [underfetch](https://github.com/workeryard/underfetch) | HTTP over raw sockets: SOCKS and HTTP(S) proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like Chrome, Firefox or Safari | experimental, before its first release |
+| underfetch | HTTP over raw sockets: SOCKS and HTTP(S) proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like Chrome, Firefox or Safari | experimental, before its first release |
 
 ---
 

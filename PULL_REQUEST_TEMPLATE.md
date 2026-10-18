@@ -4,8 +4,7 @@
 
 ## How it was checked
 
-<!-- Tests added or run, and for anything on the wire: what it was measured
+<!-- Tests added or run, and for a change in behaviour: what it was checked
 against and the result before and after. -->
 
-- [ ] `make check` passes
-- [ ] `make typecheck-workers` passes, for code that runs in a Worker
+- [ ] The repository's checks pass (its readme says which; usually `make check`)

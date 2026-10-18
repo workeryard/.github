@@ -12,7 +12,7 @@ body:
     id: reproduce
     attributes:
       label: The smallest code that shows it
-      description: A request, its options, and the target if it is public. Leave out credentials, cookies and keys.
+      description: Enough to run it. Leave out credentials, tokens, cookies and keys.
       render: ts
     validations:
       required: true
@@ -37,4 +37,4 @@ body:
     id: more
     attributes:
       label: Anything else
-      description: The profile, the proxy kind, the full error and its cause.
+      description: The full error with its cause, and anything the repository's readme asks bug reports to include.

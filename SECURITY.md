@@ -4,15 +4,12 @@ Please report a vulnerability privately, not in a public issue: open the
 repository's **Security** tab and choose **Report a vulnerability**. You will
 hear back within a week.
 
-What counts, for these libraries in particular:
+A repository with a `SECURITY.md` of its own says there what counts for it.
+Where it does not, a vulnerability is anything that lets an attacker:
 
-- a certificate, hostname or signature that should be refused and is not;
-- a proxy's credentials, cookies, tickets or a client key reaching anywhere
-  they were not sent to;
-- a response or request that can be split, smuggled or misread;
-- anything that makes a Worker do work an attacker chose.
+- read or alter data a caller did not hand them;
+- make a library accept what it is meant to refuse;
+- make a Worker do work the attacker chose.
 
-A fingerprint that a site tells apart from a real browser is not a security
-issue; open an ordinary issue for it.
-
-Fixes go into the latest release. Older ones are not patched.
+Fixes go into the latest release of the library. Older releases are not
+patched.

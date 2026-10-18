@@ -34,12 +34,6 @@ browsers before a release.
 | --- | --- | --- |
 | [underfetch](https://github.com/workeryard/underfetch) | HTTP over raw sockets: SOCKS and HTTP(S) proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like Chrome, Firefox or Safari | preparing its first release |
 
-## Support
-
-The libraries are MIT licensed and free to use. If one saves you work,
-[sponsoring](https://github.com/sponsors/0x4d4d4f) keeps it maintained and
-measured against the browsers as they change.
-
 ---
 
 WorkerYard is not affiliated with or endorsed by Cloudflare, Inc. Cloudflare

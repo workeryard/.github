@@ -34,7 +34,8 @@ release.
 
 | library                                                | what it does                                                                                                          | status                                                                      |
 | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [underfetch](https://github.com/workeryard/underfetch) | HTTP over raw sockets: proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like a browser | [0.1.0](https://www.npmjs.com/package/@workeryard/underfetch), experimental |
+| [underfetch](https://github.com/workeryard/underfetch) | HTTP over raw sockets: proxies, TLS in WebAssembly, HTTP/1.1 and HTTP/2, and a handshake that can look like a browser | [0.1.1](https://www.npmjs.com/package/@workeryard/underfetch), experimental |
+| [undershell](https://github.com/workeryard/undershell) | SSH: commands, shells, SFTP, port forwards and jump hosts, over TCP or Cloudflare Tunnel, with WebCrypto alone        | [0.1.0](https://www.npmjs.com/package/@workeryard/undershell), experimental |
 
 ---
 
